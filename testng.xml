@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="parallel">
     <test name="Device-1">
-        <parameter name="url" value="https://pruebas.acsendo.com/"/>
+        <parameter name="url" value="https://xxxxx:0000/"/>
         <classes>
             <class name="testScript.DemoTest"/>
         </classes>

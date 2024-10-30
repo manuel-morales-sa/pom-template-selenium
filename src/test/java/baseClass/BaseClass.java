@@ -27,7 +27,7 @@ public class BaseClass {
 
     @AfterMethod
     public void afterTest() {
-        System.out.println("Borrando browser");
+        System.out.println("Restarted browser");
         driver.quit();
     }
 }
