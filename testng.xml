@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="parallel">
+    <test name="Device-1">
+        <parameter name="url" value="https://pruebas.acsendo.com/"/>
+        <classes>
+            <class name="testScript.DemoTest"/>
+        </classes>
+    </test>
+</suite>
